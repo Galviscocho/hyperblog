@@ -12,5 +12,7 @@ Un blog incre&iacute­ble para el[ curso de Git y Github](https://platzi.com/cur
 * Creado por el incre&iacute­ble Platzi Team
 * Incluye ejemplos en Windows, Linux y Mac
 * Disponible para todas las edades
+* Para un unico commit y practico para todos
+* Es un curso muy interesante y divertido de aprender
 
 Y como un amable recordatorio: **Este readme.md es un chiste**.  Diseñado para el ejemplo. Si llegas ac&aacute¡ NO TE LO TOMES EN SERIO y mejor ve [**a ver el curso**](https://platzi.com/cursos/git-github/ "a ver el curso").
