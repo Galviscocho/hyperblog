@@ -1,0 +1,25 @@
+/*reglas "todo el body"
+selectores "body es un selector"
+declaraciones "la declaracion es background: red;"
+propiedades "es backgorund"
+valores "red" */
+
+
+
+
+/* Selector de etiqueta */
+
+body {
+    background:red;
+    color: yellow;
+}
+
+/*Selector descendente 
+body header div nav ol li a{
+    color: blue;
+}*/ 
+
+/* selector de id o de clase 
+
+.link (clase)
+#portafolio (id) */
