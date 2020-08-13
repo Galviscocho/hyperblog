@@ -4,16 +4,17 @@
     <meta charset="UFT-8">  
     <title>Juan Sebastian Galvis Monroy</title>
     <link rel="icon" type="imagenes/png" href="imagenes/janus.png"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans+Condensed:wght@300&family=Oswald:wght@469&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 
 <body>
-  <header>
+  <header class="header">
       <div>
-          <figure>
+          <figure class="logo">
               <img src="imagenes/janus.png"  alt="Logo de juan Juan Sebastian Galvis Monory"> 
           </figure>
-        <nav>
+        <nav class="menu">
          <ol>
             <li>
               <a class="link"  href="./portafolio/index.html">Portafolio</a>  
@@ -28,44 +29,45 @@
        </nav>
       </div>
   </header>
-  <section>
+  <section class="hero">
       <h1>
           Hola! Soy <Strong>Juan Sebastian Galvis</Strong> Ingeniero Mecatronico<br> con pasi&oacute;n de aprender y desarrollo Web <br> nuevas tecnologia
       </h1>
       <img src="imagenes/foto.jpg" width="500" alt="Imagen principal" > 
   </section>
-  <section id="portafolio">
+  <section id="portafolio" class="portfolio">
       <h2>Protafolio (Proyectos Destacados)</h2>
-      <article>
-          <h3>Platzi Cursos</h3>
-          <h6>Programacion Orientada a Objetos</h6>
-          <p><small> <strong>Fecha:</strong> 01/07/2018</small></p>
-          <p><small> <strong>Puedes verlo en:</strong> www.linkin.com/JuanSebastianGalvisMonory</small></p>
-          <p>Es un curso de programacion orientada a objetos, donde se diseñan los moldes mediantes <br>
+      <article class="project">
+          <h3 class="project-title">Platzi Cursos</h3>
+          <h6 class="project-course">Programacion Orientada a Objetos</h6>
+          <p class="project-date"><small> <strong>Fecha:</strong> 01/07/2018</small></p>
+          <p class="project-url"><small> <strong>Puedes verlo en:</strong> www.linkin.com/JuanSebastianGalvisMonory</small></p>
+          <p class="project-description">Es un curso de programacion orientada a objetos, donde se diseñan los moldes mediantes <br>
             problematicas de la vida cotidiana</p>
-
-        <img src="imagenes/Orientada a Objetos.png" width="500" alt="Certificado">
+          <figure class="project-imageContainer"> 
+            <img class="project-image" src="imagenes/Orientada a Objetos.png" width="500" alt="Certificado">
+          </figure>
       </article>
   </section>
   <section id="eventos">
       <h2>Mas sobre mi</h2>
-      <article>
-          <figure>
-              <img src="imagenes/uditech.jpg" width="500" alt="Uditech" >
+      <article class="event">
+          <figure class="event-imageContainer">
+              <img class="event-image" src="imagenes/uditech.jpg" width="500" alt="Uditech" >
           </figure>
-          <h3>Uditech 2018 Bucaramanga</h3>
-          <p>Es un concurso de robotica de nivel mundial, all&iacute;se compiten en diferentes ramas de robotica, como el sumo, mini sumo, footbool, velocistas, seguidores de lineas y etc </p>
-          <a href="https://www.youtube.com/watch?v=8iTzNNobcI4" target="_blank">Ver</a>
+          <h3 class="event-title">Uditech 2018 Bucaramanga</h3>
+          <p class="event-description">Es un concurso de robotica de nivel mundial, all&iacute;se compiten en diferentes ramas de robotica, como el sumo, mini sumo, footbool, velocistas, seguidores de lineas y etc </p>
+          <a class="event-url" href="https://www.youtube.com/watch?v=8iTzNNobcI4" target="_blank">Ver</a>
       </article>
   </section>
-  <section id="contacto">
-    <form action="/suscripcion">
+  <section id="contacto" class="contact">
+    <form action="/suscripcion" class="form-email">
       <h3>¿Creamos algo juntos?</h3>
       <input type="text" placeholder="D&eacute;jame tu email" id="email"  >
       <input type="submit" value="Texto de boton"  >
       <button>Enviar</button>
     </form>        
   </section>
-  <footer>footer</footer>
+  <footer class="footer">footer</footer>
 </body>
 </html>
