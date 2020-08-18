@@ -11,6 +11,7 @@ valores "red" */
 
 body {
     font-family: "Monserrat",sans-serif;
+    margin:0px;
 }
 h1,
 h2,
@@ -29,7 +30,9 @@ h1{
     line-height: 1.5em;
     letter-spacing: -.2px; 
     text-transform: uppercase; 
-    color:black;     
+    color:black; 
+    margin: 100px 150px 70px 30px;
+   
 }
 h1 strong{
     color:#333a56;
@@ -41,6 +44,21 @@ h1 strong{
     background-size:400px 300px ;
     background-repeat:no-repeat ;
     background-position-x: right;
+}
+.portfolio{
+    background: #fafafa;
+}
+.project{
+    border-top: 1px solid gray; 
+    border-right: 1px solid gray; 
+    border-left: 1px solid gray; 
+    border-bottom: 1px solid gray; 
+    border-radius: 10px;
+    margin: 10px; 
+    margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+
 }
 .project-details{
     width: 500px;
