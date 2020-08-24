@@ -10,32 +10,38 @@
 
 <body>
   <header class="header">
+    <div class="container">
+      <figure class="logo">
+          <img src="imagenes/logoJs.png"  alt="Logo de juan Juan Sebastian Galvis Monory" height="73.5px"> 
+      </figure>
+    <nav class="menu">
+     <ol>
+        <li>
+          <a class="link"  href="#portafolio">Portafolio</a>  
+        </li>
+        <li>
+          <a class="link" href="#eventos">Experiencia</a>  
+        </li>
+        <li>
+          <a class="link" href="#contacto">Trabajemos juntos</a>  
+        </li>
+     </ol>    
+   </nav>
+
+    </div>
       
-          <figure class="logo">
-              <img src="imagenes/logoJs.png"  alt="Logo de juan Juan Sebastian Galvis Monory" height="73.5px"> 
-          </figure>
-        <nav class="menu">
-         <ol>
-            <li>
-              <a class="link"  href="./portafolio/index.html">Portafolio</a>  
-            </li>
-            <li>
-              <a class="link" href="#eventos">Experiencia</a>  
-            </li>
-            <li>
-              <a class="link" href="#contacto">Trabajemos juntos</a>  
-            </li>
-         </ol>    
-       </nav>
       
   </header>
   <section class="hero">
+    <div class="container">
       <h1>
           Hola! Soy <Strong>Juan Sebastian Galvis</Strong> Ingeniero Mecatronico<br> con pasi&oacute;n de aprender el desarrollo Web <br> y nuevas tecnologia
       </h1>
-      <!--<img src="imagenes/foto.jpg" width="500" alt="Imagen principal"> --> 
+      <img class="hero-image" src="imagenes/hero1.jpg" width="500" alt="Imagen principal" > 
+    </div>
   </section>
   <section id="portafolio" class="portfolio">
+    <div class="container">
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
         <div class="project-details"> 
@@ -63,10 +69,14 @@
             <img class="project-image" src="imagenes/Orientada a Objetos.png" width="500" alt="Certificado">
           </figure>
       </article>
+    </div>
       
   </section>
-  <section id="eventos">
-      <h2>Mas sobre mi</h2>
+  <div class="container">
+    <h2 class="event-title">Mas sobre mi</h2>
+  </div>
+  <section id="eventos" class="event-list">
+    <div class="container">
       <article class="event">
           <figure class="event-imageContainer">
               <img class="event-image" src="imagenes/uditech.jpg" width="500" alt="Uditech" >
@@ -110,21 +120,32 @@
             <a class="event-url" href="https://www.youtube.com/watch?v=8iTzNNobcI4" target="_blank">Ver</a>
           </div>
       </article>
+    </div>
   </section>
   <section id="contacto" class="contact">
-    <form action="/suscripcion" class="form-email">
-      <h3>¿Creamos algo juntos?</h3>
-      <input type="text" placeholder="D&eacute;jame tu email" id="email"  >
-      <input type="submit" value="Texto de boton"  >
-      <button>Enviar</button>
-    </form>        
+    <div class="container">
+      <form action="/suscripcion" class="form-email">
+        <h3>¿Creamos algo juntos?</h3>
+        <input type="text" placeholder="D&eacute;jame tu email" id="email"  >
+        <button>Enviar</button>
+      </form>
+      <div class="social">
+        <a href="https://twitter.com/sebastianG1995" class="social-link twitter" ></a>
+        <a href="https://www.facebook.com/sebastiangalvis95" class="social-link facebook" ></a>
+        <a href="https://github.com/Galviscocho" class="social-link github" ></a>
+        <a href="https://www.instagram.com/sebastiangalvis95/" class="social-link instagram" ></a>
+        
+      </div>
+    </div>
   </section>
   <footer class="footer">
-    <div>
-      <p>Desarrollado por Juan Sebastian Galvis   Gracias a Platzi♥ <img src="imagenes/platzi.png" width="80px" alt=""> </p>
-    </div>
-    <div>
-      <p>Designed with ♥ by <a href="https://twitter.com/sebastianG1995">@sebastianG1995</a></p>
+    <div class="container">
+      <div>
+        <p>Desarrollado por Juan Sebastian Galvis   Gracias a Platzi♥ <img src="imagenes/platzi.png" width="80px" alt=""> </p>
+      </div>
+      <div>
+        <p>Designed with ♥ by <a href="https://twitter.com/sebastianG1995">@sebastianG1995</a></p>
+      </div>
     </div>
   </footer>
 </body>
